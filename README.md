@@ -25,22 +25,6 @@ translator-bot/
 ├── bot.py              # Telegram бот
 ├── manage.py           # Управление Django
 └── slovar.json         # Словарь слов
-## ⚙️ Установка и запуск
-
-### 1. Установи зависимости
-pip install django pyTelegramBotAPI
-
-### 2. Применить миграции
-python manage.py migrate
-
-### 3. Создать суперпользователя
-python manage.py createsuperuser
-
-### 4. Запустить сервер
-python manage.py runserver
-
-### 5. Запустить бота
-python bot.py
 
 ## 👤 Автор
 [zhamalzhandos-lab](https://github.com/zhamalzhandos-lab)
